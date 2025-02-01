@@ -1,6 +1,6 @@
 # Social App
 
-This README outlines the instructions for setting up the project with Clerk authentication and the PostgreSQL database.
+This project is a social media application similar to X and Bluesky.
 
 ## Environment Variables
 
@@ -32,7 +32,7 @@ GRANT ALL PRIVILEGES ON DATABASE socialdb TO social;
 3. Push your schema to the database:
 
 ```bash
-    npx prisma db push
+npx prisma db push
 ```
 
 These commands will create a new user and database, and assign all privileges to the user.
